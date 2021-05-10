@@ -7,12 +7,22 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Pokreni za 7 decimala",
       "skipFiles": [
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}/main.js",
       "args": ["-p", "7"]
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Pokreni za 192000 ponavljanja",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/main.js",
+      "args": ["-n", "192000"]
     }
   ]
 }
